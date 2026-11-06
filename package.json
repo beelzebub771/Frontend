@@ -1,7 +1,8 @@
 {
-  "name": "froentend",
+  "name": "wtf-pets",
   "type": "module",
-  "version": "0.0.1",
+  "version": "1.0.0",
+  "description": "Sitio web demostrativo",
   "engines": {
     "node": ">=22.22.0"
   },

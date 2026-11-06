@@ -1,46 +1,69 @@
-# Astro Starter Kit: Basics
 
-```sh
-npm create astro@latest -- --template basics
-```
+WTF PETS?
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+Sitio web demostrativo de accesorios, disfraces y artículos de broma para mascotas.
 
-## 🚀 Project Structure
+Este proyecto forma parte de un trabajo académico y tiene como objetivo presentar una propuesta real de tienda temática para mascotas mediante una interfaz web.
 
-Inside of your Astro project, you'll see the following folders and files:
+Actualmente, el proyecto esta en desarrollo y esta sugeto a cambios asi que el proyecto esta en marcha.
 
-```text
-/
+Tecnologías utilizadas
+
+•Astro: framework principal para la construcción del sitio web.
+•Vite: herramienta de desarrollo y compilación integrada en Astro.
+•HTML: estructura del contenido.
+•CSS: estilos y presentación visual.
+•JavaScript: funcionalidades e interacciones del sitio, cuando sean necesarias.
+•Bootstrap: pendiente de verificar su integración y uso efectivo.
+
+Comandos y Requisitos Previos
+
+Para trabajar con el proyecto se necesita:
+
+Node.js 22.22.0 o superior
+npm.
+Visual Studio Code
+
+Instalación
+
+Clona el repositorio: git clone https://github.com/beelzebub771/Frontend.git
+
+Ingresar a la carpeta: cd Frontend
+
+Instala las dependencias. npm install
+
+Ejecucion de desarrollo: npm run dev
+
+
+Estructura del proyecto ↓↓↓
+
+Frontend/
 ├── public/
-│   └── favicon.svg
-├── src
-│   ├── assets
-│   │   └── astro.svg
-│   ├── components
-│   │   └── Welcome.astro
-│   ├── layouts
-│   │   └── Layout.astro
-│   └── pages
-│       └── index.astro
-└── package.json
-```
+├── src/
+│   ├── assets/
+│   ├── components/
+│   ├── layouts/
+│   └── pages/
+│       └── index.astro
+│
+├── .gitignore
+├── astro.config.mjs
+├── package.json
+├── package-lock.json
+└── README.md
 
-To learn more about the folder structure of an Astro project, refer to [our guide on project structure](https://docs.astro.build/en/basics/project-structure/).
+Organización y desarrollo
 
-## 🧞 Commands
+El proyecto busca mantener una estructura clara, modular y fácil de comprender para todos los integrantes del equipo.
 
-All commands are run from the root of the project, from a terminal:
+Se priorizará:
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+Separar las responsabilidades de cada componente.
+Evitar la duplicación de código.
+Mantener nombres descriptivos.
+Documentar las funcionalidades importantes.
+Conservar una estructura preparada para futuras ampliaciones.
 
-## 👀 Want to learn more?
+Autoría
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+Proyecto desarrollado con fines académicos y educativos.
